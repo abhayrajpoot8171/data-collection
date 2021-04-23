@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    justify-content: center;
+    background:#DADDE1;
+    color:#1E201D;
+    padding-top:.5em;
+    font-family: Muli, sans-serif;
+    
+}
+.list-container {
+    background: white;
+     margin: 1rem 0 1rem 0; 
+    display:grid;
+     grid-gap:15px; 
+    grid-template-columns: 1fr 1fr;
+    padding: 1.5rem 4rem;
+    border-radius: 40px;
+    /* justify-content: center; */
+}
+.github {
+    background: black;
+    padding: .2em 1.2em;
+    padding-bottom:.4em;
+    border-radius: 60px;
+    color:white;
+    text-decoration: none;
+}
+.image {
+    height: 100px;
+    width: 120px;
+}
